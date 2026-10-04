@@ -1,11 +1,11 @@
 #include "RoboticArm.h"
 
 //Constructor
-RoboticArm::RoboticArm(double iniX, double iniY, double iniZ, bool sujetando){
+RoboticArm::RoboticArm(double iniX, double iniY, double iniZ, bool sujet){
 	x = iniX;
 	y = iniY;
 	z = iniZ;
-	sujetando = sujetando;
+	sujetando = sujet;
 }
 
 //Consultores

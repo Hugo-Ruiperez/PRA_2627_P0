@@ -1,7 +1,7 @@
 #ifndef RoboticArm_h
 #define RoboticArm_h
 
-class RoboticArm(){
+class RoboticArm {
 	private:
 		double x,y,z;
 		bool sujetando;
@@ -10,10 +10,10 @@ class RoboticArm(){
 		RoboticArm(double x, double y, double z, bool sujetando);
 
 		//Consultores
-		const double getx();
-		const double gety();
-		const double getz();
-		const bool getsujetando();
+		const double getX();
+		const double getY();
+		const double getZ();
+		const bool getSujetando();
 
 		//Acciones
 		void grab();
